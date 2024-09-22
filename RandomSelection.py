@@ -28,6 +28,10 @@ my_list = [
     "曦月",
     "NiGO",
     "Gale",
-    "请务必优秀"]
-selected = random_selection(my_list)
+    "请务必优秀",
+    
+    "FORWARD",
+    "Lis",
+    "hxy",]
+selected = random_selection(my_list[23:])
 print("被选中:", selected)
