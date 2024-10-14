@@ -32,6 +32,29 @@ my_list = [
     
     "FORWARD",
     "Lis",
-    "hxy",]
-selected = random_selection(my_list[23:])
-print("被选中:", selected)
+    "hxy",
+    
+    "Fan",
+    "温雅的岚岚",
+    "糖",
+    "杜欣远",
+    "你怎么连话都说不清楚",
+    "一定能好",
+    "小妖怪的夏天",
+    "GuoXiaogang",
+    "无悔",
+    "David.Hu",
+    "Cheng",
+    "m的二次方",
+    "冲向未来",
+    "王宇",
+    "彩虹",
+    "知足常乐",
+    "z",
+    "多宝鱼鱼",
+    "Xlh",
+    "无糖美式加冰",
+    "HotelSugar"]
+print("参与抽奖的读者:\n" + str(my_list[26:]))
+selected = random_selection(my_list[27:])
+print("------------------------------------- \n被选中:", selected)
